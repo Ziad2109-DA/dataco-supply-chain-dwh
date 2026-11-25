@@ -27,16 +27,16 @@ Grain: one row per order item. `FactOrders` with `DimDate` (role-playing: order 
 ## Dashboards
 
 ### Sales & Profitability
-![Sales](dataco-supply-chain-dwh/Docs/Sales&Profitability.png)
+![Sales](dataco-supply-chain-dwh/Docs/Sales & Profitability.png)
 
 ### Delivery & Logistics
-![Delivery](dataco-supply-chain-dwh/Docs/Delivery&Logistics.png)
+![Delivery](dataco-supply-chain-dwh/Docs/Delivery & Logistics.png)
 
 ### Customer Segmentation
-![Customers](dataco-supply-chain-dwh/Docs/CustomerSegmentation.png)
+![Customers](dataco-supply-chain-dwh/Docs/Customer Segmentation.png)
 
 ### Product & Category
-![Products](dataco-supply-chain-dwh/Docs/Product&Category.png)
+![Products](dataco-supply-chain-dwh/Docs/Product & Category.png)
 
 ## Key Insights
 - Europe and LATAM generate about 57% of revenue and profit. Margins are similar across
