@@ -10,7 +10,7 @@ End-to-end data project: raw CSVs → SQL Server data warehouse (Bronze/Silver/G
 ## Architecture
 Bronze (raw import) → Silver (cleaned, typed, derived columns) → Gold (star schema) → Power BI
 
-![DWH diagram](docs/DWH.png)
+![DWH diagram](dataco-supply-chain-dwh/Docs/DWH.png)
 
 ## Data Cleaning Highlights
 - Standardized inconsistent categories: `market` (13 spellings → 5 markets),
@@ -27,16 +27,16 @@ Grain: one row per order item. `FactOrders` with `DimDate` (role-playing: order 
 ## Dashboards
 
 ### Sales & Profitability
-![Sales](powerbi/screenshots/1-sales-profitability.png)
+![Sales](dataco-supply-chain-dwh/Docs/Sales&Profitability.png)
 
 ### Delivery & Logistics
-![Delivery](powerbi/screenshots/2-delivery-logistics.png)
+![Delivery](dataco-supply-chain-dwh/Docs/Delivery&Logistics.png)
 
 ### Customer Segmentation
-![Customers](powerbi/screenshots/3-customer-segmentation.png)
+![Customers](dataco-supply-chain-dwh/Docs/CustomerSegmentation.png)
 
 ### Product & Category
-![Products](powerbi/screenshots/4-product-category.png)
+![Products](dataco-supply-chain-dwh/Docs/Product&Category.png)
 
 ## Key Insights
 - Europe and LATAM generate about 57% of revenue and profit. Margins are similar across
